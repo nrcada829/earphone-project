@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <%- title %>
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light p-0">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <i class="bi bi-telephone-fill"></i>
+              (+886) 912 345 678
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <%- contents %>
+
+    <footer class="footer">
+      footer
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
